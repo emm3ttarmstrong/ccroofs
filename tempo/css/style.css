@@ -183,7 +183,7 @@ header p {
 }
 /* Services Section */
 #services-section {
-	padding: 50px 0 30px 0;
+	padding: 50px 0 40px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#870909+0,c9310c+48,870909+100 */
 	background: #fff; /* Old browsers */
 }
@@ -216,7 +216,7 @@ header p {
 	font-size: 1em;
 }
 #about-section {
-	padding: 80px 0;
+	padding: 50px 0;
 	background: url(../img/header-bg.jpg) no-repeat bottom center;
 }
 
@@ -224,27 +224,15 @@ header p {
 	background: #c51230;
 }
 
-/* Testimonials Section */
-#testimonials-section {
-	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: url(../img/testimonials-bg.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	color: #5b777f;
+#about-section .section-title h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.75em;
+	color: #fff;
+	line-height: 1.5em;
+	padding: 20px 0 20px 0;
 }
-#testimonial {
-	padding: 30px 0;
-}
-#testimonial .item {
-	display: block;
-	width: 100%;
-	height: auto;
-}
-#testimonial .item p {
-	font-weight: 400;
-	margin: 0 0 30px 0;
-}
+
 /* Contact Section */
 #contact-section {
 	padding: 80px 0 20px 0;
