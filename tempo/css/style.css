@@ -188,27 +188,25 @@ header p {
 	background: #fff; /* Old browsers */
 }
 #services-section h4 {
-	color: #81969c;
+	color: #1c424d;
 	text-transform: uppercase;
 }
 .space {
 	margin-top: 40px;
 }
-#services-section i.fa {
-	font-size: 40px;
+#services-section i.fo {
+	font-size: 5em;
 	border: 0;
 	width: 100px;
 	height: 80px;
-	padding: 22px 25px;
-	background: #032934;
-	margin-bottom: 6px;
-	border-radius: 10%;
-	color: #C3112F;
+	padding-bottom: 10px;
+	color: #455660;
 	transition: all 0.5s;
 }
 #services-section .service:hover>i.fa {
 	background: #0b3540;
 }
+
 /* Gallery Section
 ==============================*/
 #works-section {
