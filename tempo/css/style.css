@@ -28,8 +28,13 @@ p {
 	font-size: 1.2em;
 }
 a {
-	color: #5b777f;
+	color: #B0E0E6;
 	transition: all 0.5s;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
 }
 
 .img-centered {
@@ -234,7 +239,7 @@ header p {
 
 /* Contact Section */
 #contact-section {
-	padding: 50px 0 40px 0;
+	padding: 50px 0 35px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
 	background: #c41230;
 }
@@ -285,10 +290,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 10px;
 }
 
-#footer a:hover {
-	text-decoration: none;
-	color: black;
-}
+
 @media (max-width: 768px) {
 .content {
 	padding: 40% 0 0;
